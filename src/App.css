@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +30,37 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.App {
+  position: relative; /* Ensure the App takes full height */
+  min-height: 100vh; /* Make sure it covers the full viewport height */
+}
+
+.background {
+  position: absolute; /* Position the background behind the content */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send it to the back */
+  background: rgba(255, 182, 193, 0.3); /* Light pink color */
+  animation: pulse 5s infinite; /* Apply animation */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
   }
 }
