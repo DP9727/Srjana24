@@ -6,7 +6,7 @@ import myLogo from './assets/zebra.png'; // Import your logo image
 
 const Home = () => {
   const cards = [
-    { title: 'Demo 1', description: 'Demo 1 description', link: 'https://zebra.zoom.us/j/98548436112?pwd=yEaJYlzKIhOdrUOF7uebHI2laCYDEw.1#success' },
+    { title: 'Demo 1', description: 'Demo 1 description', link: 'https://zebra.zoom.us/j/94106441052?pwd=hT7Rfs9hgeZSmdLdwEXqBenkDPGIIm.1' },
     { title: 'Demo 2', description: 'Demo 2 description', link: 'https://zebra.zoom.us/j/92291858265?pwd=MViwukc5wMSaGvrSPqHWxMtBaUfqbZ.1' },
     { title: 'Demo 3', description: 'Demo 3 description', link: 'https://www.youtube.com/results?search_query=MachineLearning' },
     { title: 'Demo 4', description: 'Demo 4 description', link: 'https://www.youtube.com/results?search_query=Wifi' },
