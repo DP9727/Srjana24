@@ -6,21 +6,21 @@ import myLogo from './assets/zebra.png'; // Import your logo image
 
 const Home = () => {
   const cards = [
-    { title: 'Google', description: 'Go to Google', link: 'https://www.google.com' },
-    { title: 'YouTube', description: 'Go to YouTube', link: 'https://www.youtube.com' },
-    { title: 'GitHub', description: 'Go to GitHub', link: 'https://www.github.com' },
-    { title: 'Google', description: 'Go to Google', link: 'https://www.google.com' },
-    { title: 'YouTube', description: 'Go to YouTube', link: 'https://www.youtube.com' },
-    { title: 'GitHub', description: 'Go to GitHub', link: 'https://www.github.com' },
-    { title: 'Google', description: 'Go to Google', link: 'https://www.google.com' },
-    { title: 'YouTube', description: 'Go to YouTube', link: 'https://www.youtube.com' },
-    { title: 'GitHub', description: 'Go to GitHub', link: 'https://www.github.com' },
-    { title: 'Google', description: 'Go to Google', link: 'https://www.google.com' },
-    { title: 'YouTube', description: 'Go to YouTube', link: 'https://www.youtube.com' },
-    { title: 'GitHub', description: 'Go to GitHub', link: 'https://www.github.com' },
-    { title: 'Google', description: 'Go to Google', link: 'https://www.google.com' },
-    { title: 'YouTube', description: 'Go to YouTube', link: 'https://www.youtube.com' },
-    { title: 'GitHub', description: 'Go to GitHub', link: 'https://www.github.com' },
+    { title: 'Demo 1', description: 'Demo 1 description', link: 'https://zebra.zoom.us/j/98548436112?pwd=yEaJYlzKIhOdrUOF7uebHI2laCYDEw.1#success' },
+    { title: 'Demo 2', description: 'Demo 2 description', link: 'https://zebra.zoom.us/j/92291858265?pwd=MViwukc5wMSaGvrSPqHWxMtBaUfqbZ.1' },
+    { title: 'Demo 3', description: 'Demo 3 description', link: 'https://www.youtube.com/results?search_query=MachineLearning' },
+    { title: 'Demo 4', description: 'Demo 4 description', link: 'https://www.youtube.com/results?search_query=Wifi' },
+    { title: 'Demo 5', description: 'Demo 5 description', link: 'https://www.youtube.com/results?search_query=Bluetooth' },
+    { title: 'Demo 6', description: 'Demo 6 description', link: 'https://www.youtube.com/results?search_query=AccessPoint' },
+    { title: 'Demo 7', description: 'Demo 7 description', link: 'https://www.youtube.com/results?search_query=Wireshark' },
+    { title: 'Demo 8', description: 'Demo 8 description', link: 'https://www.youtube.com/results?search_query=Android' },
+    { title: 'Demo 9', description: 'Demo 9 description', link: 'https://www.youtube.com/results?search_query=AndroidFramework' },
+    { title: 'Demo 10', description: 'Demo 10 description', link: 'https://www.youtube.com/results?search_query=AndroidScanningFramework' },
+    { title: 'Demo 11', description: 'Demo 11 description', link: 'https://www.youtube.com/results?search_query=ZebraTechnologies' },
+    { title: 'Demo 12', description: 'Demo 12 description', link: 'https://www.youtube.com/results?search_query=OperatingSystems' },
+    { title: 'Demo 13', description: 'Demo 13 description', link: 'https://www.youtube.com/results?search_query=ComputerNetworks' },
+    { title: 'Demo 14', description: 'Demo 14 description', link: 'https://www.youtube.com/results?search_query=ArtificialInteligence' },
+    { title: 'Demo 15', description: 'Demo 15 description', link: 'https://www.youtube.com/results?search_query=IndoorLocation' },
     // Add more cards as needed
   ];
 
