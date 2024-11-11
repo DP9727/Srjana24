@@ -1,11 +1,12 @@
 // CardComponent.jsx
 import React from 'react';
-import { Card, CardContent, Typography, CardActionArea } from '@mui/material';
+import { Card, CardContent, Typography, CardActionArea, CardMedia } from '@mui/material';
+
 // App.js or index.js
 import '@fontsource/roboto-slab'; // Defaults to 400 weight
 
 
-const CardComponent = ({ title, description, link }) => {
+const CardComponent = ({ title, description, link, imageSrc }) => {
   
   const handleClick = () => {
     // window.location.href = link; // Redirects to an external link
@@ -78,6 +79,17 @@ const CardComponent = ({ title, description, link }) => {
       }}
     >
       <CardActionArea onClick={handleClick} sx={{ padding: '20px' }}>
+      {/* {imageSrc && (
+          <CardMedia
+            component="img"
+            image={imageSrc}
+            alt={title}
+            sx={{
+              height: 150, // Set the height of the image
+              borderRadius: '20px 20px 0 0', // Rounded top corners
+            }}
+          />
+        )} */}
         <CardContent>
           <Typography
             gutterBottom

@@ -3,24 +3,26 @@ import React, { useEffect } from 'react';
 import { AppBar, Toolbar, Typography, Box } from '@mui/material';
 import CardComponent from './CardComponent';
 import myLogo from './assets/zebra.png'; // Import your logo image
+import image from './assets/image.jpg'
+import image2 from './assets/image2.jpg'
 
 const Home = () => {
   const cards = [
-    { title: 'Demo 1', description: 'Demo 1 description', link: 'https://zebra.zoom.us/j/98545619644?pwd=OeYDNEeOPsqifhbiueN7V1cfW17UDQ.1' },
-    { title: 'Demo 2', description: 'Demo 2 description', link: 'https://zebra.zoom.us/j/94221559500?pwd=IvBcdBBp8sP8Sk26ZDxB3pr9QYQrwQ.1' },
-    { title: 'Demo 3', description: 'Demo 3 description', link: 'https://www.youtube.com/results?search_query=MachineLearning' },
-    { title: 'Demo 4', description: 'Demo 4 description', link: 'https://www.youtube.com/results?search_query=Wifi' },
-    { title: 'Demo 5', description: 'Demo 5 description', link: 'https://www.youtube.com/results?search_query=Bluetooth' },
-    { title: 'Demo 6', description: 'Demo 6 description', link: 'https://www.youtube.com/results?search_query=AccessPoint' },
-    { title: 'Demo 7', description: 'Demo 7 description', link: 'https://www.youtube.com/results?search_query=Wireshark' },
-    { title: 'Demo 8', description: 'Demo 8 description', link: 'https://www.youtube.com/results?search_query=Android' },
-    { title: 'Demo 9', description: 'Demo 9 description', link: 'https://www.youtube.com/results?search_query=AndroidFramework' },
-    { title: 'Demo 10', description: 'Demo 10 description', link: 'https://www.youtube.com/results?search_query=AndroidScanningFramework' },
-    { title: 'Demo 11', description: 'Demo 11 description', link: 'https://www.youtube.com/results?search_query=ZebraTechnologies' },
-    { title: 'Demo 12', description: 'Demo 12 description', link: 'https://www.youtube.com/results?search_query=OperatingSystems' },
-    { title: 'Demo 13', description: 'Demo 13 description', link: 'https://www.youtube.com/results?search_query=ComputerNetworks' },
-    { title: 'Demo 14', description: 'Demo 14 description', link: 'https://www.youtube.com/results?search_query=ArtificialInteligence' },
-    { title: 'Demo 15', description: 'Demo 15 description', link: 'https://www.youtube.com/results?search_query=IndoorLocation' },
+    { title: 'Demo 1', description: 'Demo 1 description', link: 'https://zebra.zoom.us/j/91823522287?pwd=TSN6vN4WeObpZTOiwkJmaT3WMEhgaa.1', imageSrc: "https://via.placeholder.com/300" },
+    { title: 'Demo 2', description: 'Demo 2 description', link: 'https://zebra.zoom.us/j/94085691351?pwd=tLqeWUNDmsF0qjtnJKXTeRPNTfjMtP.1', imageSrc: image },
+    { title: 'Demo 3', description: 'Demo 3 description', link: 'https://zebra.zoom.us/j/93564823323?pwd=lywyCRWF2D8hKK80MoHL7gCfLnfcGn.1', imageSrc: image },
+    { title: 'Demo 4', description: 'Demo 4 description', link: 'https://zebra.zoom.us/j/97006086992?pwd=XbIjTbHa4ot76Rq5baZizj2HlMMSEv.1', imageSrc: image },
+    { title: 'Demo 5', description: 'Demo 5 description', link: 'https://www.youtube.com/results?search_query=Bluetooth', imageSrc: image },
+    { title: 'Demo 6', description: 'Demo 6 description', link: 'https://www.youtube.com/results?search_query=AccessPoint', imageSrc: image },
+    { title: 'Demo 7', description: 'Demo 7 description', link: 'https://www.youtube.com/results?search_query=Wireshark', imageSrc: image },
+    { title: 'Demo 8', description: 'Demo 8 description', link: 'https://www.youtube.com/results?search_query=Android', imageSrc: image },
+    { title: 'Demo 9', description: 'Demo 9 description', link: 'https://www.youtube.com/results?search_query=AndroidFramework', imageSrc: image },
+    { title: 'Demo 10', description: 'Demo 10 description', link: 'https://www.youtube.com/results?search_query=AndroidScanningFramework', imageSrc: image },
+    { title: 'Demo 11', description: 'Demo 11 description', link: 'https://www.youtube.com/results?search_query=ZebraTechnologies', imageSrc: image2 },
+    { title: 'Demo 12', description: 'Demo 12 description', link: 'https://www.youtube.com/results?search_query=OperatingSystems', imageSrc: image2 },
+    { title: 'Demo 13', description: 'Demo 13 description', link: 'https://www.youtube.com/results?search_query=ComputerNetworks', imageSrc: image2 },
+    { title: 'Demo 14', description: 'Demo 14 description', link: 'https://www.youtube.com/results?search_query=ArtificialInteligence', imageSrc: image2 },
+    { title: 'Demo 15', description: 'Demo 15 description', link: 'https://www.youtube.com/results?search_query=IndoorLocation', imageSrc: image2 },
     // Add more cards as needed
   ];
 
@@ -65,7 +67,7 @@ const Home = () => {
               maxWidth: '345px',
             }}
           >
-            <CardComponent title={card.title} description={card.description} link={card.link} />
+            <CardComponent title={card.title} description={card.description} link={card.link} imageSrc={card.imageSrc} />
           </Box>
         ))}
       </Box>
