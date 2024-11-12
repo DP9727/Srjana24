@@ -5,24 +5,24 @@ import CardComponent from './CardComponent';
 import myLogo from './assets/zebra.png'; // Import your logo image
 import image from './assets/image.jpg'
 import image2 from './assets/image2.jpg'
+import srjanaImg from './assets/srjana.png'
 
 const Home = () => {
   const cards = [
-    { title: 'Demo 1', description: 'Demo 1 description', link: 'https://zebra.zoom.us/j/91823522287?pwd=TSN6vN4WeObpZTOiwkJmaT3WMEhgaa.1', imageSrc: "https://via.placeholder.com/300" },
-    { title: 'Demo 2', description: 'Demo 2 description', link: 'https://zebra.zoom.us/j/94085691351?pwd=tLqeWUNDmsF0qjtnJKXTeRPNTfjMtP.1', imageSrc: image },
-    { title: 'Demo 3', description: 'Demo 3 description', link: 'https://zebra.zoom.us/j/93564823323?pwd=lywyCRWF2D8hKK80MoHL7gCfLnfcGn.1', imageSrc: image },
-    { title: 'Demo 4', description: 'Demo 4 description', link: 'https://zebra.zoom.us/j/97006086992?pwd=XbIjTbHa4ot76Rq5baZizj2HlMMSEv.1', imageSrc: image },
-    { title: 'Demo 5', description: 'Demo 5 description', link: 'https://www.youtube.com/results?search_query=Bluetooth', imageSrc: image },
-    { title: 'Demo 6', description: 'Demo 6 description', link: 'https://www.youtube.com/results?search_query=AccessPoint', imageSrc: image },
-    { title: 'Demo 7', description: 'Demo 7 description', link: 'https://www.youtube.com/results?search_query=Wireshark', imageSrc: image },
-    { title: 'Demo 8', description: 'Demo 8 description', link: 'https://www.youtube.com/results?search_query=Android', imageSrc: image },
-    { title: 'Demo 9', description: 'Demo 9 description', link: 'https://www.youtube.com/results?search_query=AndroidFramework', imageSrc: image },
-    { title: 'Demo 10', description: 'Demo 10 description', link: 'https://www.youtube.com/results?search_query=AndroidScanningFramework', imageSrc: image },
-    { title: 'Demo 11', description: 'Demo 11 description', link: 'https://www.youtube.com/results?search_query=ZebraTechnologies', imageSrc: image2 },
-    { title: 'Demo 12', description: 'Demo 12 description', link: 'https://www.youtube.com/results?search_query=OperatingSystems', imageSrc: image2 },
-    { title: 'Demo 13', description: 'Demo 13 description', link: 'https://www.youtube.com/results?search_query=ComputerNetworks', imageSrc: image2 },
-    { title: 'Demo 14', description: 'Demo 14 description', link: 'https://www.youtube.com/results?search_query=ArtificialInteligence', imageSrc: image2 },
-    { title: 'Demo 15', description: 'Demo 15 description', link: 'https://www.youtube.com/results?search_query=IndoorLocation', imageSrc: image2 },
+    { title: 'Android Thin Client', description: '', link: 'https://zebra.zoom.us/j/94306216893?pwd=NHMS0aUSaQItuxVDDg8fuOJwoVlGul.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Self Powered Electronic Shelf Labels', description: '', link: 'https://zebra.zoom.us/j/92824214882?pwd=sGl6UuVAaq2RjbO6JnAkxpVQsrhTjk.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Enhanced Positioning using BLE AoA', description: '', link: 'https://www.youtube.com/results?search_query=Bluetooth', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'On-device AI', description: '', link: 'https://zebra.zoom.us/j/96900796467?pwd=Pq5JEMauXsTvk8YDR50NbZ7AnmB3WQ.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Task-E - Task Insights & All Things "Content"', description: '', link: 'https://zebra.zoom.us/j/94386202564?pwd=ym2PicYk8gfTvEFaICbGRzoQqW2EmJ.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Intelligent MDF Rule Generator', description: '', link: 'https://zebra.zoom.us/j/94344079080?pwd=QRs80TOfyHm0b0Wa5QH8HaD1erBPMe.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Zippy', description: '', link: 'https://zebra.zoom.us/j/91351376771?pwd=5J2uwOqYEejXzxAPNz2btzwdbTYZ1H.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Zebra Adaptive Print (ZAP)', description: '', link: 'https://zebra.zoom.us/j/95373472138?pwd=OMYB13cwqu0mDwZWySaejlNvrNmBSb.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Snap & Fill', description: '', link: 'https://zebra.zoom.us/j/94966525296?pwd=PiOCOFmsmH3K8JbUoalDaNIr6jH0Ie.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'zVoice Isolator', description: '', link: 'https://zebra.zoom.us/j/91474603347?pwd=SvdorCmHliA5mrMLyDE6HzeqG8f4TW.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'zSecurity Alert', description: '', link: 'https://zebra.zoom.us/j/97130936429?pwd=jvY3Sp5Q8DD30pz6Ir5bT2aZx3fn6p.1', bgColor: "#693915", imageSrc: srjanaImg },
+    { title: 'Adaptive Imaging', description: '', link: 'https://zebra.zoom.us/j/96039948809?pwd=pT2aAjUcfahlcRSKoEBcO16bmdQBfa.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'Zebra Playground', description: '', link: 'https://zebra.zoom.us/j/94463072463?pwd=pjPmZVSIo8sMzqatZZy6xwEnF78J6U.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'zPower Conserver', description: '', link: 'https://zebra.zoom.us/j/94431676637?pwd=olhbkt26ci1RpBmuaDDyLUORGqGmPL.1', bgColor: "#784580", imageSrc: srjanaImg },
     // Add more cards as needed
   ];
 
@@ -67,7 +67,7 @@ const Home = () => {
               maxWidth: '345px',
             }}
           >
-            <CardComponent title={card.title} description={card.description} link={card.link} imageSrc={card.imageSrc} />
+            <CardComponent title={card.title} description={card.description} link={card.link} bgColor={card.bgColor} imageSrc={card.imageSrc} />
           </Box>
         ))}
       </Box>

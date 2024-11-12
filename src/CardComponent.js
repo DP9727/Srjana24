@@ -6,13 +6,14 @@ import { Card, CardContent, Typography, CardActionArea, CardMedia } from '@mui/m
 import '@fontsource/roboto-slab'; // Defaults to 400 weight
 
 
-const CardComponent = ({ title, description, link, imageSrc }) => {
+const CardComponent = ({ title, description, link, bgColor, imageSrc }) => {
   
   const handleClick = () => {
     // window.location.href = link; // Redirects to an external link
     window.open(link, '_blank', 'noopener,noreferrer'); // Opens the link in a new tab
   };
 
+  console.log("BgColor " + bgColor);
   // return (
   //   <Card
   //     sx={{
@@ -74,22 +75,24 @@ const CardComponent = ({ title, description, link, imageSrc }) => {
           transform: 'scale(1.03)',
           boxShadow: '0px 6px 20px rgba(255, 215, 0, 0.3)', // Gold shadow on hover
         },
-        // background: '#62cff4'
-        background: 'linear-gradient(45deg, #000000, #000000)', // Black to gold gradient
+        background: bgColor
+        // background: 'linear-gradient(45deg, {bgColor}, #000000)', // Black to gold gradient
       }}
     >
       <CardActionArea onClick={handleClick} sx={{ padding: '20px' }}>
-      {/* {imageSrc && (
+      {imageSrc && (
           <CardMedia
             component="img"
             image={imageSrc}
             alt={title}
             sx={{
-              height: 150, // Set the height of the image
+              height: 80, // Set the height of the image
+              // width: 200,
               borderRadius: '20px 20px 0 0', // Rounded top corners
+              objectFit: 'contain'
             }}
           />
-        )} */}
+        )}
         <CardContent>
           <Typography
             gutterBottom
