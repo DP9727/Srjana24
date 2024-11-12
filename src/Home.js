@@ -11,7 +11,7 @@ const Home = () => {
   const cards = [
     { title: 'Android Thin Client', description: '', link: 'https://zebra.zoom.us/j/94306216893?pwd=NHMS0aUSaQItuxVDDg8fuOJwoVlGul.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     { title: 'Self Powered Electronic Shelf Labels', description: '', link: 'https://zebra.zoom.us/j/92824214882?pwd=sGl6UuVAaq2RjbO6JnAkxpVQsrhTjk.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'Enhanced Positioning using BLE AoA', description: '', link: 'https://www.youtube.com/results?search_query=Bluetooth', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Enhanced Positioning using BLE AoA', description: '', link: 'https://zebra.zoom.us/j/91784313505?pwd=D8uNx40wopwtztFmNxmLAzIxApcT69.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     { title: 'On-device AI', description: '', link: 'https://zebra.zoom.us/j/96900796467?pwd=Pq5JEMauXsTvk8YDR50NbZ7AnmB3WQ.1', bgColor: "#2464a3", imageSrc: srjanaImg },
     { title: 'Task-E - Task Insights & All Things "Content"', description: '', link: 'https://zebra.zoom.us/j/94386202564?pwd=ym2PicYk8gfTvEFaICbGRzoQqW2EmJ.1', bgColor: "#2464a3", imageSrc: srjanaImg },
     { title: 'Intelligent MDF Rule Generator', description: '', link: 'https://zebra.zoom.us/j/94344079080?pwd=QRs80TOfyHm0b0Wa5QH8HaD1erBPMe.1', bgColor: "#2464a3", imageSrc: srjanaImg },
