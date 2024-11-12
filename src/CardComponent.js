@@ -13,7 +13,6 @@ const CardComponent = ({ title, description, link, bgColor, imageSrc }) => {
     window.open(link, '_blank', 'noopener,noreferrer'); // Opens the link in a new tab
   };
 
-  console.log("BgColor " + bgColor);
   // return (
   //   <Card
   //     sx={{
@@ -79,21 +78,44 @@ const CardComponent = ({ title, description, link, bgColor, imageSrc }) => {
         // background: 'linear-gradient(45deg, {bgColor}, #000000)', // Black to gold gradient
       }}
     >
-      <CardActionArea onClick={handleClick} sx={{ padding: '20px' }}>
+      <CardActionArea onClick={handleClick} 
+      sx={{ padding: '20px' }}
+      // sx={{ display: 'flex', alignItems: 'center', width: 300, padding: '16px' }}
+      >
       {imageSrc && (
           <CardMedia
             component="img"
             image={imageSrc}
             alt={title}
             sx={{
-              height: 80, // Set the height of the image
+              height: 50, // Set the height of the image
               // width: 200,
               borderRadius: '20px 20px 0 0', // Rounded top corners
               objectFit: 'contain'
             }}
+
+            // sx={{
+            //   position: 'absolute',      // Position image absolutely
+            //   top: 16,                   // Space from the top of the card
+            //   left: 16,                  // Space from the left of the card
+            //   width: 60,                 // Set image width as needed
+            //   height: 60,                // Set image height as needed
+            //   borderRadius: '8px',       // Optional: Rounded corners
+            //   objectFit: 'contain'         // Keep aspect ratio with cropping if necessary
+            // }}
+
+            // sx={{
+            //   width: 60,               // Set image width
+            //   height: 60,              // Set image height
+            //   borderRadius: '8px',     // Optional: rounded corners
+            //   marginRight: '16px',     // Space between image and text
+            //   objectFit: 'contain'
+            // }}
           />
         )}
-        <CardContent>
+        <CardContent 
+        // sx={{ marginLeft: imageSrc ? 10 : 0 }}
+        >
           <Typography
             gutterBottom
             variant="h5"
