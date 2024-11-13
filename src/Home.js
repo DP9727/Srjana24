@@ -9,20 +9,20 @@ import srjanaImg from './assets/srjana.png'
 
 const Home = () => {
   const cards = [
-    { title: 'Android Thin Client', description: '', link: 'https://zebra.zoom.us/j/94306216893?pwd=NHMS0aUSaQItuxVDDg8fuOJwoVlGul.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'Self Powered Electronic Shelf Labels', description: '', link: 'https://zebra.zoom.us/j/92824214882?pwd=sGl6UuVAaq2RjbO6JnAkxpVQsrhTjk.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'Enhanced Positioning using BLE AoA', description: '', link: 'https://zebra.zoom.us/j/91784313505?pwd=D8uNx40wopwtztFmNxmLAzIxApcT69.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'zInsight Edge AI Diagnostics', description: '', link: 'https://zebra.zoom.us/j/99886739599?pwd=VzdmtO3E7OGdzdVBr9G9zysQTDPJaz.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Task-E - Task Insights & All Things "Content"', description: '', link: 'https://zebra.zoom.us/j/94386202564?pwd=ym2PicYk8gfTvEFaICbGRzoQqW2EmJ.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Intelligent MDF Rule Generator', description: '', link: 'https://zebra.zoom.us/j/94344079080?pwd=QRs80TOfyHm0b0Wa5QH8HaD1erBPMe.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Zippy', description: '', link: 'https://zebra.zoom.us/j/91351376771?pwd=5J2uwOqYEejXzxAPNz2btzwdbTYZ1H.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Zebra Adaptive Print (ZAP)', description: '', link: 'https://zebra.zoom.us/j/95373472138?pwd=OMYB13cwqu0mDwZWySaejlNvrNmBSb.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Snap & Fill', description: '', link: 'https://zebra.zoom.us/j/94966525296?pwd=PiOCOFmsmH3K8JbUoalDaNIr6jH0Ie.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'zVoice Isolator', description: '', link: 'https://zebra.zoom.us/j/91474603347?pwd=SvdorCmHliA5mrMLyDE6HzeqG8f4TW.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'zSecurity Alert', description: '', link: 'https://zebra.zoom.us/j/97130936429?pwd=jvY3Sp5Q8DD30pz6Ir5bT2aZx3fn6p.1', bgColor: "#693915", imageSrc: srjanaImg },
-    { title: 'Adaptive Imaging', description: '', link: 'https://zebra.zoom.us/j/96039948809?pwd=pT2aAjUcfahlcRSKoEBcO16bmdQBfa.1', bgColor: "#784580", imageSrc: srjanaImg },
-    { title: 'Zebra Playground', description: '', link: 'https://zebra.zoom.us/j/94463072463?pwd=pjPmZVSIo8sMzqatZZy6xwEnF78J6U.1', bgColor: "#784580", imageSrc: srjanaImg },
-    { title: 'zPower Conserver', description: '', link: 'https://zebra.zoom.us/j/91454166858?pwd=Co1a6rbMNOh6fA80TjtKaKDbZPmr2l.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'Android Thin Client', description: '', link: 'https://zebra.zoom.us/j/91027534823?pwd=bpvignd9brvExiDwHjNVtBuuLdYXbg.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Self Powered Electronic Shelf Labels', description: '', link: 'https://zebra.zoom.us/j/95527987439?pwd=AU1abWCpS7a8Lx0q54oT9467bhUMO6.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Enhanced Positioning using BLE AoA', description: '', link: 'https://zebra.zoom.us/j/99454762624?pwd=l3hDR7gpJDMUQZacavGU6cU08UTYPx.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'zInsight Edge AI Diagnostics', description: '', link: 'https://zebra.zoom.us/j/91360224119?pwd=oqxiUwkBuoSyYjpQkVrvG9WpmMYtHU.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Task-E - Task Insights & All Things "Content"', description: '', link: 'https://zebra.zoom.us/j/98923777621?pwd=PCpieBXXLl0X4Okylv56cxxfZko8Ca.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Intelligent MDF Rule Generator', description: '', link: 'https://zebra.zoom.us/j/94134154671?pwd=t2syMLQollaalFDeCdO5WbWQ3VLXWX.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Zippy', description: '', link: 'https://zebra.zoom.us/j/94516853896?pwd=gHtcKdhlx7jYQcvc49CwRah9cOuNEU.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Zebra Adaptive Print (ZAP)', description: '', link: 'https://zebra.zoom.us/j/91548074656?pwd=6g4GgLhxaO2aMvbVkWBb9t5eR7cp3i.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Snap & Fill', description: '', link: 'https://zebra.zoom.us/j/99231998316?pwd=Wizzvw15kBMIFLHxvVS7jdbDorey91.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'zVoice Isolator', description: '', link: 'https://zebra.zoom.us/j/97696123286?pwd=Uyh0Dua5L5JJonVM5xdsbQmiPJtdib.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'zSecurity Alert', description: '', link: 'https://zebra.zoom.us/j/91904431943?pwd=PKgZcTW0E0Y41XrjIg7eTtgrxbE2qG.1', bgColor: "#693915", imageSrc: srjanaImg },
+    { title: 'Adaptive Imaging', description: '', link: 'https://zebra.zoom.us/j/93827142314?pwd=WYFcaRT0Muxs8KVAB5wSCBCM4F3dnT.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'Zebra Playground', description: '', link: 'https://zebra.zoom.us/j/95721066900?pwd=7cm4faAaSAqrxZcO1dNVJ9BBh1Cfpq.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'zPower Conserver', description: '', link: 'https://zebra.zoom.us/j/96593891646?pwd=f5Hagv6vMy3P8E3dKWFVPgaFoVAGyi.1', bgColor: "#784580", imageSrc: srjanaImg },
     // Add more cards as needed
   ];
 
