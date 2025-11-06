@@ -88,7 +88,7 @@ const CardComponent = ({ title, description, link, bgColor, imageSrc }) => {
             image={imageSrc}
             alt={title}
             sx={{
-              height: 50, // Set the height of the image
+              height: 55, // Set the height of the image
               // width: 200,
               borderRadius: '20px 20px 0 0', // Rounded top corners
               objectFit: 'contain'

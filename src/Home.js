@@ -9,26 +9,33 @@ import srjanaImg from './assets/srjana.png'
 
 const Home = () => {
   const cards = [
-    { title: 'Android Thin Client', description: '', link: 'https://zebra.zoom.us/j/91027534823?pwd=bpvignd9brvExiDwHjNVtBuuLdYXbg.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'Self Powered Electronic Shelf Labels', description: '', link: 'https://zebra.zoom.us/j/95527987439?pwd=AU1abWCpS7a8Lx0q54oT9467bhUMO6.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'Enhanced Positioning using BLE AoA', description: '', link: 'https://zebra.zoom.us/j/99454762624?pwd=l3hDR7gpJDMUQZacavGU6cU08UTYPx.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'zInsight Edge AI Diagnostics', description: '', link: 'https://zebra.zoom.us/j/91360224119?pwd=oqxiUwkBuoSyYjpQkVrvG9WpmMYtHU.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Task-E - Task Insights & All Things "Content"', description: '', link: 'https://zebra.zoom.us/j/98923777621?pwd=PCpieBXXLl0X4Okylv56cxxfZko8Ca.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Intelligent MDF Rule Generator', description: '', link: 'https://zebra.zoom.us/j/94134154671?pwd=t2syMLQollaalFDeCdO5WbWQ3VLXWX.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Zippy', description: '', link: 'https://zebra.zoom.us/j/94516853896?pwd=gHtcKdhlx7jYQcvc49CwRah9cOuNEU.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Zebra Adaptive Print (ZAP)', description: '', link: 'https://zebra.zoom.us/j/91548074656?pwd=6g4GgLhxaO2aMvbVkWBb9t5eR7cp3i.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'Snap & Fill', description: '', link: 'https://zebra.zoom.us/j/99231998316?pwd=Wizzvw15kBMIFLHxvVS7jdbDorey91.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'zVoice Isolator', description: '', link: 'https://zebra.zoom.us/j/97696123286?pwd=Uyh0Dua5L5JJonVM5xdsbQmiPJtdib.1', bgColor: "#2464a3", imageSrc: srjanaImg },
-    { title: 'zSecurity Alert', description: '', link: 'https://zebra.zoom.us/j/91904431943?pwd=PKgZcTW0E0Y41XrjIg7eTtgrxbE2qG.1', bgColor: "#693915", imageSrc: srjanaImg },
-    { title: 'Adaptive Imaging', description: '', link: 'https://zebra.zoom.us/j/93827142314?pwd=WYFcaRT0Muxs8KVAB5wSCBCM4F3dnT.1', bgColor: "#784580", imageSrc: srjanaImg },
-    { title: 'Zebra Playground', description: '', link: 'https://zebra.zoom.us/j/95721066900?pwd=7cm4faAaSAqrxZcO1dNVJ9BBh1Cfpq.1', bgColor: "#784580", imageSrc: srjanaImg },
-    { title: 'zPower Conserver', description: '', link: 'https://zebra.zoom.us/j/96593891646?pwd=f5Hagv6vMy3P8E3dKWFVPgaFoVAGyi.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'Zebra Code Compass', description: '', link: 'https://zebra.zoom.us/j/93122813962?pwd=UDeZGKBIHopPDaAqf2FLlMYCH8QEJS.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'NxtGen RxLogger & Insights', description: '', link: 'https://zebra.zoom.us/j/93887852180?pwd=Ie7bAFR1mj17yamSqVXyLFAknyeJ6j.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'zCOP', description: '', link: 'https://zebra.zoom.us/j/92557131622?pwd=D7J44fyA3tOVuBWKIlSGbPBWPitZmx.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    // { title: 'Zebra Threat Modeler', description: '', link: 'https://zebra.zoom.us/j/98923777621?pwd=PCpieBXXLl0X4Okylv56cxxfZko8Ca.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'zGuru', description: '', link: 'https://zebra.zoom.us/j/95918511942?pwd=1qRHeQqDJvUoQMqgTKx07ceaeaEAZd.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+
+    { title: 'TruePut', description: '', link: 'https://zebra.zoom.us/j/94237450819?pwd=CloPtnBlcVRiSaafY3CGIDwgWFtaoC.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+    { title: 'Docksy', description: '', link: 'https://zebra.zoom.us/j/97194304487?pwd=hFiRbpIaYD25ps79sF3RsUXLQJNcA7.1', bgColor: "#2464a3", imageSrc: srjanaImg },
+
+    { title: 'Zebra SSO Bridge', description: '', link: 'https://zebra.zoom.us/j/98779293177?pwd=jTGWbh3JSx4CzwM6hrZR9uP2wuQwh1.1', bgColor: "#693915", imageSrc: srjanaImg },
+    { title: 'zPRISM', description: '', link: 'https://zebra.zoom.us/j/95461662620?pwd=cmvlgwlmbHdoaHEM7DabaKk5UbMihG.1', bgColor: "#693915", imageSrc: srjanaImg },
+
+
+    { title: 'Voice Guardian', description: '', link: 'https://zebra.zoom.us/j/93566409324?pwd=nAY7SasunIdhAMTJbMaVi4Bk9b0GxP.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'zDepth', description: '', link: 'https://zebra.zoom.us/j/96237735812?pwd=1yO9OJQUKCVBwfZNUq5BWAPgOpIrBI.1', bgColor: "#784580", imageSrc: srjanaImg },
+    { title: 'Intelligent Charging Solutions', description: '', link: 'https://zebra.zoom.us/j/97474389295?pwd=deZgkSoT2nWEbyvvXzhWVKp04iITMN.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    
+    { title: 'CyberArchitectAI', description: '', link: 'https://zebra.zoom.us/j/98707643289?pwd=Ij33QISinqgwjMOeGdL3AgN9HkcNVK.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Operations Platform', description: '', link: 'https://zebra.zoom.us/j/92189574548?pwd=blssbpWK0L4kLV4LEQGCRZAZay1Jwm.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Demo 1', description: '', link: 'https://zebra.zoom.us/j/98449132173?pwd=Rj3rDxjSYvBgunqHiFASvWUAd5RbKQ.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Demo 2', description: '', link: 'https://zebra.zoom.us/j/92189574548?pwd=blssbpWK0L4kLV4LEQGCRZAZay1Jwm.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     // Add more cards as needed
   ];
 
   // Set the document title when the Home component is rendered
   useEffect(() => {
-    document.title = 'Srjana 2024';
+    document.title = 'Srjana 2025';
   }, []);
 
   return (
@@ -43,7 +50,7 @@ const Home = () => {
             style={{ height: '40px', marginRight: '10px' }} // Adjust height to fit the text
           />
           <Typography variant="h6" component="div">
-            Srjana 2024
+            Srjana 2025
           </Typography>
         </Toolbar>
       </AppBar>
