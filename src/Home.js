@@ -30,6 +30,7 @@ const Home = () => {
     { title: 'Operations Platform', description: '', link: 'https://zebra.zoom.us/j/92189574548?pwd=blssbpWK0L4kLV4LEQGCRZAZay1Jwm.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     { title: 'Demo 1', description: '', link: 'https://zebra.zoom.us/j/98449132173?pwd=Rj3rDxjSYvBgunqHiFASvWUAd5RbKQ.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     { title: 'Demo 2', description: '', link: 'https://zebra.zoom.us/j/98789278063?pwd=RATYPUnUQ8FMbnvODl471LhrOIbaeg.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    { title: 'Demo 3', description: '', link: 'https://zebra.zoom.us/j/97076368816?pwd=B3vhmQDoT3irClDGGs7JebQDa1S9w4.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     // Add more cards as needed
   ];
 
