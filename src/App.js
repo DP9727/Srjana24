@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Destination from './Destination';
-import myLogo from './assets/zebra.png';
+// import myLogo from './assets/zebra.png';
 
 function App() {
   return (

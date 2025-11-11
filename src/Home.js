@@ -3,8 +3,8 @@ import React, { useEffect } from 'react';
 import { AppBar, Toolbar, Typography, Box } from '@mui/material';
 import CardComponent from './CardComponent';
 import myLogo from './assets/zebra.png'; // Import your logo image
-import image from './assets/image.jpg'
-import image2 from './assets/image2.jpg'
+// import image from './assets/image.jpg'
+// import image2 from './assets/image2.jpg'
 import srjanaImg from './assets/srjana.png'
 
 const Home = () => {
