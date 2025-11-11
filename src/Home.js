@@ -12,8 +12,8 @@ const Home = () => {
     { title: 'Zebra Code Compass', description: '', link: 'https://zebra.zoom.us/j/93122813962?pwd=UDeZGKBIHopPDaAqf2FLlMYCH8QEJS.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     { title: 'NxtGen RxLogger & Insights', description: '', link: 'https://zebra.zoom.us/j/93887852180?pwd=Ie7bAFR1mj17yamSqVXyLFAknyeJ6j.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     { title: 'zCOP', description: '', link: 'https://zebra.zoom.us/j/92557131622?pwd=D7J44fyA3tOVuBWKIlSGbPBWPitZmx.1', bgColor: "#0b521e", imageSrc: srjanaImg },
+    // { title: 'Zebra Threat Modeler', description: '', link: 'https://zebra.zoom.us/j/98923777621?pwd=PCpieBXXLl0X4Okylv56cxxfZko8Ca.1', bgColor: "#0b521e", imageSrc: srjanaImg },
     { title: 'zGuru', description: '', link: 'https://zebra.zoom.us/j/95918511942?pwd=1qRHeQqDJvUoQMqgTKx07ceaeaEAZd.1', bgColor: "#0b521e", imageSrc: srjanaImg },
-    { title: 'Zebra Threat Modeler', description: '', link: 'https://zebra.zoom.us/j/98707643289?pwd=Ij33QISinqgwjMOeGdL3AgN9HkcNVK.1', bgColor: "#0b521e", imageSrc: srjanaImg },
 
     { title: 'TruePut', description: '', link: 'https://zebra.zoom.us/j/94237450819?pwd=CloPtnBlcVRiSaafY3CGIDwgWFtaoC.1', bgColor: "#2464a3", imageSrc: srjanaImg },
     { title: 'Docksy', description: '', link: 'https://zebra.zoom.us/j/97194304487?pwd=hFiRbpIaYD25ps79sF3RsUXLQJNcA7.1', bgColor: "#2464a3", imageSrc: srjanaImg },
@@ -26,6 +26,7 @@ const Home = () => {
     { title: 'zDepth', description: '', link: 'https://zebra.zoom.us/j/96237735812?pwd=1yO9OJQUKCVBwfZNUq5BWAPgOpIrBI.1', bgColor: "#784580", imageSrc: srjanaImg },
     { title: 'Intelligent Charging Solutions', description: '', link: 'https://zebra.zoom.us/j/97474389295?pwd=deZgkSoT2nWEbyvvXzhWVKp04iITMN.1', bgColor: "#784580", imageSrc: srjanaImg },
     
+    { title: 'CyberArchitectAI', description: '', link: 'https://zebra.zoom.us/j/98707643289?pwd=Ij33QISinqgwjMOeGdL3AgN9HkcNVK.1', bgColor: "#f58442", imageSrc: srjanaImg },
     { title: 'Mock-11-Nov', description: '', link: 'https://zebra.zoom.us/j/92189574548?pwd=blssbpWK0L4kLV4LEQGCRZAZay1Jwm.1', bgColor: "#f58442", imageSrc: srjanaImg },
     { title: 'Demo 1', description: '', link: 'https://zebra.zoom.us/j/98449132173?pwd=Rj3rDxjSYvBgunqHiFASvWUAd5RbKQ.1', bgColor: "#f58442", imageSrc: srjanaImg },
     { title: 'Demo 2', description: '', link: 'https://zebra.zoom.us/j/98789278063?pwd=RATYPUnUQ8FMbnvODl471LhrOIbaeg.1', bgColor: "#f58442", imageSrc: srjanaImg },
