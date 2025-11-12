@@ -26,10 +26,10 @@ const Home = () => {
     { title: 'zDepth', description: '', link: 'https://zebra.zoom.us/j/96237735812?pwd=1yO9OJQUKCVBwfZNUq5BWAPgOpIrBI.1', bgColor: "#784580", imageSrc: srjanaImg },
     { title: 'Intelligent Charging Solutions', description: '', link: 'https://zebra.zoom.us/j/97474389295?pwd=deZgkSoT2nWEbyvvXzhWVKp04iITMN.1', bgColor: "#784580", imageSrc: srjanaImg },
     
-    { title: 'Mock-11-Nov', description: '', link: 'https://zebra.zoom.us/j/92189574548?pwd=blssbpWK0L4kLV4LEQGCRZAZay1Jwm.1', bgColor: "#f58442", imageSrc: srjanaImg },
-    { title: 'Demo 1', description: '', link: 'https://zebra.zoom.us/j/98449132173?pwd=Rj3rDxjSYvBgunqHiFASvWUAd5RbKQ.1', bgColor: "#f58442", imageSrc: srjanaImg },
-    { title: 'Demo 2', description: '', link: 'https://zebra.zoom.us/j/98789278063?pwd=RATYPUnUQ8FMbnvODl471LhrOIbaeg.1', bgColor: "#f58442", imageSrc: srjanaImg },
-    { title: 'Demo 3', description: '', link: 'https://zebra.zoom.us/j/97076368816?pwd=B3vhmQDoT3irClDGGs7JebQDa1S9w4.1', bgColor: "#f58442", imageSrc: srjanaImg },
+    // { title: 'Mock-11-Nov', description: '', link: 'https://zebra.zoom.us/j/92189574548?pwd=blssbpWK0L4kLV4LEQGCRZAZay1Jwm.1', bgColor: "#f58442", imageSrc: srjanaImg },
+    // { title: 'Demo 1', description: '', link: 'https://zebra.zoom.us/j/98449132173?pwd=Rj3rDxjSYvBgunqHiFASvWUAd5RbKQ.1', bgColor: "#f58442", imageSrc: srjanaImg },
+    // { title: 'Demo 2', description: '', link: 'https://zebra.zoom.us/j/98789278063?pwd=RATYPUnUQ8FMbnvODl471LhrOIbaeg.1', bgColor: "#f58442", imageSrc: srjanaImg },
+    // { title: 'Demo 3', description: '', link: 'https://zebra.zoom.us/j/97076368816?pwd=B3vhmQDoT3irClDGGs7JebQDa1S9w4.1', bgColor: "#f58442", imageSrc: srjanaImg },
     // Add more cards as needed
   ];
 
